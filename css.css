@@ -1,0 +1,75 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+header{
+  width: 100%;
+  background-color: #252323;
+  height: 60px;
+}
+main{
+  height: 100%;
+  margin:0 auto;
+  width: 980px;
+  position: relative;
+}
+.logo{
+  padding: 15px;
+  width:40%;
+  float: left;
+}
+.redes-sociais ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+.redes-sociais{
+  width:20%;
+  float: right;
+  padding: 15px;
+}
+section{
+  background-color: #FFFFFF;
+  height: 83px;
+  border-bottom: 4px solid #efefef;
+}
+.menu{
+  width: 50%;
+}
+.menu ul{
+  float: left;
+  align-items: center
+}
+.menu ul li{
+display: inline-block;
+height: 50px;
+}
+.menu ul li a{
+  font-size: 14px;
+  text-decoration: none;
+  color: #8B8B8B; 
+  margin-left: 20px;
+}
+.menu ul li:hover {
+  border-bottom: 2px solid #00bac6;
+}
+.menu ul li a:hover {
+  color: #00bac6; 
+}
+.buscar{
+  text-align: center;
+  width: 22%;
+  float: right;
+  position: relative;
+}
+.buscar input{
+  background-image: url('../img/pesquisar.png');
+  background-repeat: no-repeat;
+  height: 36px;
+  width: 197px;
+  border: 1px solid #8B8B8B;
+}
