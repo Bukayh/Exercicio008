@@ -71,7 +71,7 @@ padding-top: 20px;
 .banner img{
   width: 100%;
 }
-main{
+.main{
   height: 100%;
   margin:0 auto;
   width: 980px;
@@ -89,12 +89,15 @@ strong{
   color:#000000;
 }
 .text2{
-  padding-top: 45px;
+  padding-top: 50px;
+}
+.text2 ul{
+  display:flex;
 }
 .text2 ul li{
-  display:inline-block;
+  
   list-style: none;
-  width: 33%;
+  
 }
 .mac{
   color: #8B8B8B;
@@ -136,4 +139,92 @@ strong{
 .photo p{
   text-align: center;
 }
+.pencilman{
+  padding-top: 36px;
 
+}
+.main2{
+  height: 100%;
+  margin:0 auto;
+  width: 980px;
+  position: relative;
+}
+.text3{
+ width: 100%;
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
+}
+.menuimg{
+  padding-top: 95px;
+}
+.menuimg ul li{
+  display: inline-block;
+  margin-left: 10px;
+}
+.menuimg ul li a :hover{
+  border: 2px solid #000000;
+}
+.logos ul{
+  padding-top: 120px;
+  height: 150px;
+}
+.logos ul li{
+  display: inline-block;
+  margin-left: 75px;
+}
+.backgroundfooter{
+  background-color: #4e4b4b;
+}
+.footer{
+  height: 100%;
+  margin:0 auto;
+  width: 980px;
+  position: relative;
+}
+.footer ul{
+  display: flex;
+  list-style: none;
+  color: #c0c0c0;
+  padding-top: 40px;
+}
+.footer ul li{
+  margin-left: 50px;
+ width: 24%;
+}
+.footer h1{
+  font-size: 20px;
+}
+.footer p{
+  font-size: 15px;
+}
+.footer b{
+  font-size: 20px;
+  color: #ffffff;
+}
+.footer time{
+  color: #717171;
+}
+.final{
+  background-color: #212121;
+  height: 90px;
+}
+.footer2{
+  height: 100%;
+  margin:0 auto;
+  width: 980px;
+  position: relative;
+  
+}
+.finaltext{
+  float: left;
+  padding-top: 38px;
+}
+.social2 {
+  float: right;
+  padding-top: 38px;
+}
+.social2 ul li{
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
+}
