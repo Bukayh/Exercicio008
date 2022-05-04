@@ -6,6 +6,7 @@
 .header{
   background-color: #252323;
   height: 60px;
+ width: 100%;
 }
 .logo{
   height: 100%;
@@ -16,7 +17,6 @@
 .logo img{
   padding: 15px; 
   float: left;
-  
 }
 .social{
   float: right;
@@ -152,6 +152,7 @@ strong{
 .text3{
  width: 100%;
   background-image: url(img/background.png);
+  width: 100%;
   background-repeat: no-repeat;
 }
 .menuimg{
@@ -174,6 +175,7 @@ strong{
 }
 .backgroundfooter{
   background-color: #4e4b4b;
+  width: 100%;
 }
 .footer{
   height: 100%;
@@ -207,6 +209,7 @@ strong{
 .final{
   background-color: #212121;
   height: 90px;
+  width: 100%;
 }
 .footer2{
   height: 100%;
